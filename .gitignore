@@ -1,0 +1,119 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build/package artifacts
+build/
+dist/
+dist_new/
+build_new/
+*.spec.bak
+*.egg-info/
+
+# Local/generated outputs
+outputs/
+exports/
+out/
+cache/
+.cache/
+catalogiq_workspace/
+test_data/
+
+# Uploaded/temporary phase packages
+catalogiq_review_bundle_*.zip
+catalogiq_premium_ui_upgrade.zip
+catalogiq_phase*.zip
+phase1_platform_core/
+phase2_data_product/
+phase3_workspace_agent/
+phase4_main_app_integration/
+phase4_safe_launcher/
+phase4b_enterprise_workspace/
+phase5_enterprise_command_center/
+phase6_enterprise_catalog_agent/
+phase7_enterprise_connectors/
+premium_upgrade/
+
+# Patch backups
+app/main_window.before_*.py
+app/main_window.backup*.py
+app/main_window.py.bak_*
+app/agentic_catalog_dialog.before_*.py
+app/catalogiq_command_center.before_*.py
+app/*.broken_*.py
+app/*.__test*.py
+
+# Logs and state
+*.log
+*.tmp
+*.bak
+catalog_autosave.json
+catalog_state.json
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+aws_credentials.json
+snowflake_credentials.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Additional local environments
+.venv311/
+
+# Local knowledge/state/audio
+knowledge_store/
+tts_output.wav
+catalog_title.json
+catalog_title.txt
+kernel.json
+
+# Local generated/default state
+defaults.local.json
+
+# Module backup files
+app/*.backup_before_*.py
+app/*.before_phase*.py
+app/*.before_*.py
+
+# Module backup files
+app/*.backup_before_*.py
+app/*.before_phase*.py
+app/*.before_*.py
+
+# Module backup files
+app/*.backup_before_*.py
+app/*.before_phase*.py
+app/*.before_*.py
+
+# Local backup archive
+_local_backups/
+
+# Old phase / patch artifacts not part of current product
+CatalogIQ_Command_Center_v5.cmd
+CatalogIQ_Command_Center_v6.cmd
+INSTALL_PREMIUM_UI.ps1
+Launch_CatalogIQ_Workspace_v4.cmd
+Launch_CatalogIQ_Workspace_v5.cmd
+Launch_CatalogIQ_Workspace_v6.cmd
+PREMIUM_UI_NOTES.md
+RUN_COMMAND_CENTER_V6.ps1
+Start-CatalogIQ-Premium.ps1
+patch_catalogiq_ui.ps1
+patch_catalogiq_ui.py
