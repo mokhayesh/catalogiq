@@ -120,3 +120,6 @@ patch_catalogiq_ui.py
 
 # Allow safe environment template
 !.env.example
+
+# Phase 8 local-only connector profiles
+.catalogiq_local/
