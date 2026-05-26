@@ -117,3 +117,6 @@ RUN_COMMAND_CENTER_V6.ps1
 Start-CatalogIQ-Premium.ps1
 patch_catalogiq_ui.ps1
 patch_catalogiq_ui.py
+
+# Allow safe environment template
+!.env.example
